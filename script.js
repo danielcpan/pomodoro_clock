@@ -149,5 +149,5 @@ $(document).ready(function(){
 		return s;
 	}
 
-	setInterval(countdown, 10);
+	setInterval(countdown, 1000);
 });
