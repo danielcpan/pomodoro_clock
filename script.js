@@ -107,7 +107,7 @@ $(document).ready(function(){
 			$('#timer').css("color", "#333");
 		}
 		$('#timer').text(numFormat(minutes, 2) + ":" + numFormat(seconds, 2));
-		$('title').text("POMODORO " + $('#label').text() + ": " + numFormat(minutes, 2) + ":" + numFormat(seconds, 2));
+		$('title').text(numFormat(minutes, 2) + ":" + numFormat(seconds, 2) + " " + $('#label').text());
 	}
 
 	function update() {
